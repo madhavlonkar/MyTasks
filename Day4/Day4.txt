@@ -1,0 +1,185 @@
+What are different Scrum Ceremonies?
+	-Spring Planning
+	-Daily-Standup
+	-Spring Review
+	-Sprint Rectrosprective
+	
+What is User Story
+What is Epic
+What is story points
+What is Spring Artifacts
+
+
+Write a program to input a number using command line args multiply it with by number of your choice and
+display the result.
+
+What are errors and exceptions?
+	-Try
+	-Catch
+	-Finally
+	-Throw
+	-Throws
+	-Try-with-Resources
+	
+Throwable class defines all exceptions
+
+Throw vs throws
+
+create a custom expection called as invalid age exception anyone 
+above 18 is allowed to vote and below is not allowded to vote
+
+
+
+QC Schedule
+
+
+Weekly QC
+	
+Date
+
+
+Week-1
+	
+8/6/2024
+
+
+Week-2
+	
+8/13/2024
+
+
+Weekly Quizzes
+	
+Date
+
+
+week-1
+	
+8/6/2024
+
+
+week-2
+	
+8/13/2024
+
+
+Competency Audits
+	
+Date
+
+
+Java SQL
+	
+8/20/2024
+
+
+Web Development
+	
+8/27/2024
+
+
+JSP
+	
+9/2/2024
+
+
+Spring Boot
+	
+9/10/2024
+
+
+Tuning LLMs(Unit)
+	
+9/18/2024
+
+
+Micorservices
+	
+9/25/2024
+
+
+DevOps
+	
+9/30/2024
+
+
+Cumulative
+	
+10/3/2024
+
+
+Coding Challenges
+
+
+week 2 - Java level 1
+	
+8/5/2024
+
+
+week 3-  SQL level 1
+	
+8/12/2024
+
+
+week 4 - Java level 2
+	
+8/19/2024
+
+
+week 5 - SQL level 2
+	
+8/26/2024
+
+
+week 6 - Java level 3
+	
+9/2/2024
+
+
+Competency Exams
+
+
+Competencies
+	
+Date
+
+
+Java SQL
+	
+8/20/2024
+
+
+Web Development
+	
+8/27/2024
+
+
+JSP
+	
+9/2/2024
+
+
+Spring Boot
+	
+9/10/2024
+
+
+Tuning LLMs(Unit)
+	
+9/18/2024
+
+
+Micorservices
+	
+9/25/2024
+
+
+DevOps
+	
+9/30/2024
+ 
+Link https://github.com/jasdhiratrevature/T... by Jasdhir Singh
+Jasdhir Singh
+12:48 PM
+https://github.com/jasdhiratrevature/TRNG-00001988
+has context menu

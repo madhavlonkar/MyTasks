@@ -1,0 +1,12 @@
+Difference between scrum and kanban
+
+  <properties>
+  	<maven.compiler.release>21</maven.compiler.release>
+  </properties>
+  
+  
+Different Maven Build Life Cycle
+
+BufferReader -Why this
+
+what is serilization
