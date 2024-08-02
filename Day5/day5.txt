@@ -10,3 +10,16 @@ Different Maven Build Life Cycle
 BufferReader -Why this
 
 what is serilization
+
+Logback architecture
+Logging Levels:
+	-Trace
+	-Info
+	-Debug
+	-Wran
+	-Error
+
+Rooling File Append
+Application should do file based logging and once 
+the size of file has crossed the threshold 
+it should create new file.

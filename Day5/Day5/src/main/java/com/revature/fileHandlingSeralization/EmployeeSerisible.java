@@ -5,7 +5,13 @@ import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class EmployeeSerisible {
+	
+	private static final Logger logger= LoggerFactory.getLogger(EmployeeSerisible.class);
+	
 	public static void main(String[] args) {
 		
 		FileOutputStream fos=null;
@@ -27,6 +33,8 @@ public class EmployeeSerisible {
 		FileInputStream fis=null;
 		ObjectInputStream ois=null;
 		try {
+			logger.debug("Opening File");
+			logger.trace("Hello");
 			fis=new FileInputStream("outputser.txt");
 			ois=new ObjectInputStream(fis);
 			System.out.print(""+(Employee) ois.readObject());
