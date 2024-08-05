@@ -1,5 +1,8 @@
 package com.revature;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
@@ -23,22 +26,48 @@ public class CalculatorTest {
 	
 	@Test
 	@DisplayName("Positive Test Case")
-	@Order(2)
+	@Order(1)
 	public void testSumPositive()
 	{
 		result=c.sum(input1, input2);
-		System.out.println("testSumPositive");
+		System.out.println("\ntestSumPositive");
 		Assertions.assertEquals(30, result);
 	}
 	
 	@Test
-	@Order(1)
+	@DisplayName("Negative Test Case")
+	@Order(2)
 	public void testSumNegative()
 	{
 		result=c.sum(input1, input2);
-		System.out.println("testSumNegative");
-		Assertions.assertEquals(20, result);
+		System.out.println("\ntestSumNegative");
+		Assertions.assertNotEquals(20, result);
 	}
+	
+	@Test
+	public void testMultiply() {
+		result=c.multiply(input2, input1);
+		System.out.print("\nTest Mulitply");
+		Assertions.assertEquals(200, result);
+	}
+	
+	@Test
+    @DisplayName("Test Division")
+    @Order(4)
+    public void testDivide() {
+        result = c.divide(input1, input2);
+        System.out.println("testDivide");
+        assertEquals(0, result); // 10/20 = 0 in integer division
+    }
+	
+	@Test
+    @DisplayName("Test Division by Zero")
+    @Order(5)
+    public void testDivideByZero() {
+        input2 = 0;
+        System.out.println("testDivideByZero");
+        assertThrows(ArithmeticException.class, () -> c.divide(input1, input2));
+    }
 	
 	@BeforeEach
 	public void beforeEachMethod()
